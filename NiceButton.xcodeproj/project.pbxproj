@@ -12,6 +12,7 @@
 		3909E6BA20CB3A8900A9C182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3909E6B820CB3A8900A9C182 /* Main.storyboard */; };
 		3909E6BC20CB3A8B00A9C182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3909E6BB20CB3A8B00A9C182 /* Assets.xcassets */; };
 		3909E6BF20CB3A8B00A9C182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3909E6BD20CB3A8B00A9C182 /* LaunchScreen.storyboard */; };
+		3909E6C720CB3AC900A9C182 /* NiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3909E6C620CB3AC900A9C182 /* NiceButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3909E6BB20CB3A8B00A9C182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3909E6BE20CB3A8B00A9C182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3909E6C020CB3A8B00A9C182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3909E6C620CB3AC900A9C182 /* NiceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				3909E6B420CB3A8900A9C182 /* AppDelegate.swift */,
+				3909E6C620CB3AC900A9C182 /* NiceButton.swift */,
 				3909E6B620CB3A8900A9C182 /* ViewController.swift */,
 				3909E6B820CB3A8900A9C182 /* Main.storyboard */,
 				3909E6BB20CB3A8B00A9C182 /* Assets.xcassets */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3909E6C720CB3AC900A9C182 /* NiceButton.swift in Sources */,
 				3909E6B720CB3A8900A9C182 /* ViewController.swift in Sources */,
 				3909E6B520CB3A8900A9C182 /* AppDelegate.swift in Sources */,
 			);
