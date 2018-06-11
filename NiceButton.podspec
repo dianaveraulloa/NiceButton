@@ -8,7 +8,11 @@ This fantastic button makes your app look fantastic! It is only a test.
                        DESC
  
   s.homepage         = 'https://github.com/dveraull/NiceButton'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :text => <<-LICENSE
+                   Copyright 2018
+                   This is a test.
+                 LICENSE
+               }
   s.author           = { 'Diana' => 'dianic.veul@gmail.com' }
   s.source           = { :git => 'https://github.com/dveraull/NiceButton.git', :tag => s.version.to_s }
  
